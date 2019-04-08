@@ -1,11 +1,11 @@
+import java.util.ArrayList;
 
 public class Customer {
 int customerID;
-int customerIa;
 String Firstname;
-
+double credit;
 public Customer() {
-	
+	ArrayList accounts = new ArrayList<>();
 }
 
 public int getCustomerID() {
